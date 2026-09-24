@@ -5,8 +5,8 @@ st.sidebar.title("Parámetros")
 st.write("Elaborado por: Jonathan Rubio")
 
 
-archivo = st.file_uploader(“ Cargue su archivo”)
+archivo = st.file_uploader("Cargue su archivo")
 
 if archivo is not None:
-table = pd.read_csv(archivo)
-st.write(tabla)
+  tabla = pd.read_csv(archivo)
+  st.write(tabla)
